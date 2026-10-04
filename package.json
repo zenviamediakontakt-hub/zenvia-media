@@ -1,0 +1,14 @@
+{
+  "name": "zenvia-media",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Zenvia Media business website",
+  "main": "server.js",
+  "scripts": {"start": "node server.js"},
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.1.0",
+    "resend": "^6.1.2"
+  }
+}
